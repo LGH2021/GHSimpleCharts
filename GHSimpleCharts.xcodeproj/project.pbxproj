@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D716F34725EF61160050B628 /* LineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D716F34625EF61160050B628 /* LineViewController.m */; };
+		D716F34A25EF62240050B628 /* BarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D716F34925EF62240050B628 /* BarViewController.m */; };
+		D716F34D25EF62340050B628 /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D716F34C25EF62340050B628 /* PieViewController.m */; };
+		D716F35025EF62430050B628 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D716F34F25EF62430050B628 /* RadarViewController.m */; };
+		D719856325DE133B00E947E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D719856225DE133B00E947E6 /* AppDelegate.m */; };
+		D719856925DE133B00E947E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D719856825DE133B00E947E6 /* ViewController.m */; };
+		D719856E25DE135900E947E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D719856D25DE135900E947E6 /* Assets.xcassets */; };
+		D719857125DE135900E947E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D719856F25DE135900E947E6 /* LaunchScreen.storyboard */; };
+		D719857425DE135900E947E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D719857325DE135900E947E6 /* main.m */; };
+		D719859025DE14A000E947E6 /* NSString+GHSimpleCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = D719857E25DE14A000E947E6 /* NSString+GHSimpleCharts.m */; };
+		D719859125DE14A000E947E6 /* GHPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D719858225DE14A000E947E6 /* GHPieChartView.m */; };
+		D719859225DE14A000E947E6 /* GHProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D719858425DE14A000E947E6 /* GHProgressChartView.m */; };
+		D719859325DE14A000E947E6 /* GHChartsInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D719858725DE14A000E947E6 /* GHChartsInfoView.m */; };
+		D719859425DE14A000E947E6 /* GHBaseChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D719858A25DE14A000E947E6 /* GHBaseChartsView.m */; };
+		D719859525DE14A000E947E6 /* GHCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D719858F25DE14A000E947E6 /* GHCTool.m */; };
+		D719859825DE15B800E947E6 /* UIColor+GHSimpleCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = D719859725DE15B800E947E6 /* UIColor+GHSimpleCharts.m */; };
+		D72813E525F9F99300B6A70C /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72813E425F9F99300B6A70C /* ProgressViewController.m */; };
+		D75AEDA225F20129005E12A7 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AEDA125F20129005E12A7 /* man.png */; };
+		D75AEDA425F20134005E12A7 /* man2.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AEDA325F20134005E12A7 /* man2.png */; };
+		D764BD0425E0E8F400B719DE /* GHAxisChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D764BD0325E0E8F400B719DE /* GHAxisChartView.m */; };
+		D764BD0725E0E91E00B719DE /* GHLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D764BD0625E0E91E00B719DE /* GHLineChartView.m */; };
+		D78DBD1625F5F8F100F8F385 /* UIViewController+CreateControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DBD1525F5F8F100F8F385 /* UIViewController+CreateControl.m */; };
+		D7BAEA7A25E8D9390098503B /* GHRadarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAEA7925E8D9390098503B /* GHRadarChartView.m */; };
+		D7E93F8D25F0C60A0099F0A2 /* GHConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E93F8C25F0C6090099F0A2 /* GHConfigs.m */; };
+		D7FAE23A25E775810029AE16 /* GHBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAE23925E775810029AE16 /* GHBarChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D716F34525EF61160050B628 /* LineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineViewController.h; sourceTree = "<group>"; };
+		D716F34625EF61160050B628 /* LineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineViewController.m; sourceTree = "<group>"; };
+		D716F34825EF62240050B628 /* BarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarViewController.h; sourceTree = "<group>"; };
+		D716F34925EF62240050B628 /* BarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarViewController.m; sourceTree = "<group>"; };
+		D716F34B25EF62340050B628 /* PieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieViewController.h; sourceTree = "<group>"; };
+		D716F34C25EF62340050B628 /* PieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieViewController.m; sourceTree = "<group>"; };
+		D716F34E25EF62430050B628 /* RadarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
+		D716F34F25EF62430050B628 /* RadarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
+		D719855E25DE133B00E947E6 /* GHSimpleCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHSimpleCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D719856125DE133B00E947E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D719856225DE133B00E947E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D719856725DE133B00E947E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D719856825DE133B00E947E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D719856D25DE135900E947E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D719857025DE135900E947E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D719857225DE135900E947E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D719857325DE135900E947E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D719857B25DE14A000E947E6 /* GHProgressChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHProgressChartView.h; sourceTree = "<group>"; };
+		D719857D25DE14A000E947E6 /* NSString+GHSimpleCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHSimpleCharts.h"; sourceTree = "<group>"; };
+		D719857E25DE14A000E947E6 /* NSString+GHSimpleCharts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHSimpleCharts.m"; sourceTree = "<group>"; };
+		D719857F25DE14A000E947E6 /* GHSimpleCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSimpleCharts.h; sourceTree = "<group>"; };
+		D719858225DE14A000E947E6 /* GHPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPieChartView.m; sourceTree = "<group>"; };
+		D719858325DE14A000E947E6 /* GHPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPieChartView.h; sourceTree = "<group>"; };
+		D719858425DE14A000E947E6 /* GHProgressChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHProgressChartView.m; sourceTree = "<group>"; };
+		D719858725DE14A000E947E6 /* GHChartsInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHChartsInfoView.m; sourceTree = "<group>"; };
+		D719858825DE14A000E947E6 /* GHChartsInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHChartsInfoView.h; sourceTree = "<group>"; };
+		D719858A25DE14A000E947E6 /* GHBaseChartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBaseChartsView.m; sourceTree = "<group>"; };
+		D719858B25DE14A000E947E6 /* GHBaseChartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBaseChartsView.h; sourceTree = "<group>"; };
+		D719858D25DE14A000E947E6 /* GHCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCTool.h; sourceTree = "<group>"; };
+		D719858E25DE14A000E947E6 /* GHSimpleChartsEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSimpleChartsEnum.h; sourceTree = "<group>"; };
+		D719858F25DE14A000E947E6 /* GHCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCTool.m; sourceTree = "<group>"; };
+		D719859625DE15B800E947E6 /* UIColor+GHSimpleCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GHSimpleCharts.h"; sourceTree = "<group>"; };
+		D719859725DE15B800E947E6 /* UIColor+GHSimpleCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GHSimpleCharts.m"; sourceTree = "<group>"; };
+		D72813E325F9F99300B6A70C /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		D72813E425F9F99300B6A70C /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		D75AEDA125F20129005E12A7 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		D75AEDA325F20134005E12A7 /* man2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man2.png; sourceTree = "<group>"; };
+		D764BD0225E0E8F400B719DE /* GHAxisChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAxisChartView.h; sourceTree = "<group>"; };
+		D764BD0325E0E8F400B719DE /* GHAxisChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAxisChartView.m; sourceTree = "<group>"; };
+		D764BD0525E0E91E00B719DE /* GHLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLineChartView.h; sourceTree = "<group>"; };
+		D764BD0625E0E91E00B719DE /* GHLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLineChartView.m; sourceTree = "<group>"; };
+		D78DBD1425F5F8F100F8F385 /* UIViewController+CreateControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CreateControl.h"; sourceTree = "<group>"; };
+		D78DBD1525F5F8F100F8F385 /* UIViewController+CreateControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CreateControl.m"; sourceTree = "<group>"; };
+		D7BAEA7825E8D9390098503B /* GHRadarChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHRadarChartView.h; sourceTree = "<group>"; };
+		D7BAEA7925E8D9390098503B /* GHRadarChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHRadarChartView.m; sourceTree = "<group>"; };
+		D7E93F8B25F0C6090099F0A2 /* GHConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHConfigs.h; sourceTree = "<group>"; };
+		D7E93F8C25F0C6090099F0A2 /* GHConfigs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHConfigs.m; sourceTree = "<group>"; };
+		D7FAE23825E775810029AE16 /* GHBarChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBarChartView.h; sourceTree = "<group>"; };
+		D7FAE23925E775810029AE16 /* GHBarChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBarChartView.m; sourceTree = "<group>"; };
+		D7FAE23C25E782A20029AE16 /* GHAxisChartViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAxisChartViewProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D719855B25DE133B00E947E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D719855525DE133B00E947E6 = {
+			isa = PBXGroup;
+			children = (
+				D719856025DE133B00E947E6 /* GHSimpleCharts */,
+				D719855F25DE133B00E947E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D719855F25DE133B00E947E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D719855E25DE133B00E947E6 /* GHSimpleCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D719856025DE133B00E947E6 /* GHSimpleCharts */ = {
+			isa = PBXGroup;
+			children = (
+				D75AEDA125F20129005E12A7 /* man.png */,
+				D75AEDA325F20134005E12A7 /* man2.png */,
+				D719856125DE133B00E947E6 /* AppDelegate.h */,
+				D719856225DE133B00E947E6 /* AppDelegate.m */,
+				D719856725DE133B00E947E6 /* ViewController.h */,
+				D719856825DE133B00E947E6 /* ViewController.m */,
+				D716F34525EF61160050B628 /* LineViewController.h */,
+				D716F34625EF61160050B628 /* LineViewController.m */,
+				D716F34825EF62240050B628 /* BarViewController.h */,
+				D716F34925EF62240050B628 /* BarViewController.m */,
+				D716F34B25EF62340050B628 /* PieViewController.h */,
+				D716F34C25EF62340050B628 /* PieViewController.m */,
+				D716F34E25EF62430050B628 /* RadarViewController.h */,
+				D716F34F25EF62430050B628 /* RadarViewController.m */,
+				D72813E325F9F99300B6A70C /* ProgressViewController.h */,
+				D72813E425F9F99300B6A70C /* ProgressViewController.m */,
+				D7E93F8B25F0C6090099F0A2 /* GHConfigs.h */,
+				D7E93F8C25F0C6090099F0A2 /* GHConfigs.m */,
+				D78DBD1425F5F8F100F8F385 /* UIViewController+CreateControl.h */,
+				D78DBD1525F5F8F100F8F385 /* UIViewController+CreateControl.m */,
+				D719857A25DE14A000E947E6 /* GHSimpleCharts */,
+				D719856D25DE135900E947E6 /* Assets.xcassets */,
+				D719856F25DE135900E947E6 /* LaunchScreen.storyboard */,
+				D719857225DE135900E947E6 /* Info.plist */,
+				D719857325DE135900E947E6 /* main.m */,
+			);
+			path = GHSimpleCharts;
+			sourceTree = "<group>";
+		};
+		D719857A25DE14A000E947E6 /* GHSimpleCharts */ = {
+			isa = PBXGroup;
+			children = (
+				D719857F25DE14A000E947E6 /* GHSimpleCharts.h */,
+				D719857C25DE14A000E947E6 /* Category */,
+				D719858925DE14A000E947E6 /* Base */,
+				D719858525DE14A000E947E6 /* Line */,
+				D7FAE23725E754B10029AE16 /* Bar */,
+				D719858125DE14A000E947E6 /* Pie */,
+				D7BAEA7725E8D74B0098503B /* Radar */,
+				D7BAEA7B25E8E73C0098503B /* Progress */,
+				D719858625DE14A000E947E6 /* InfoView */,
+				D7FAE23B25E7826A0029AE16 /* Protocol */,
+				D719858C25DE14A000E947E6 /* Tool */,
+			);
+			path = GHSimpleCharts;
+			sourceTree = "<group>";
+		};
+		D719857C25DE14A000E947E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D719857D25DE14A000E947E6 /* NSString+GHSimpleCharts.h */,
+				D719857E25DE14A000E947E6 /* NSString+GHSimpleCharts.m */,
+				D719859625DE15B800E947E6 /* UIColor+GHSimpleCharts.h */,
+				D719859725DE15B800E947E6 /* UIColor+GHSimpleCharts.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D719858125DE14A000E947E6 /* Pie */ = {
+			isa = PBXGroup;
+			children = (
+				D719858325DE14A000E947E6 /* GHPieChartView.h */,
+				D719858225DE14A000E947E6 /* GHPieChartView.m */,
+			);
+			path = Pie;
+			sourceTree = "<group>";
+		};
+		D719858525DE14A000E947E6 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				D764BD0525E0E91E00B719DE /* GHLineChartView.h */,
+				D764BD0625E0E91E00B719DE /* GHLineChartView.m */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		D719858625DE14A000E947E6 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				D719858825DE14A000E947E6 /* GHChartsInfoView.h */,
+				D719858725DE14A000E947E6 /* GHChartsInfoView.m */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		D719858925DE14A000E947E6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D719858B25DE14A000E947E6 /* GHBaseChartsView.h */,
+				D719858A25DE14A000E947E6 /* GHBaseChartsView.m */,
+				D764BD0225E0E8F400B719DE /* GHAxisChartView.h */,
+				D764BD0325E0E8F400B719DE /* GHAxisChartView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D719858C25DE14A000E947E6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D719858E25DE14A000E947E6 /* GHSimpleChartsEnum.h */,
+				D719858D25DE14A000E947E6 /* GHCTool.h */,
+				D719858F25DE14A000E947E6 /* GHCTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D7BAEA7725E8D74B0098503B /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAEA7825E8D9390098503B /* GHRadarChartView.h */,
+				D7BAEA7925E8D9390098503B /* GHRadarChartView.m */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		D7BAEA7B25E8E73C0098503B /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				D719857B25DE14A000E947E6 /* GHProgressChartView.h */,
+				D719858425DE14A000E947E6 /* GHProgressChartView.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		D7FAE23725E754B10029AE16 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAE23825E775810029AE16 /* GHBarChartView.h */,
+				D7FAE23925E775810029AE16 /* GHBarChartView.m */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		D7FAE23B25E7826A0029AE16 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAE23C25E782A20029AE16 /* GHAxisChartViewProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D719855D25DE133B00E947E6 /* GHSimpleCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D719857725DE135900E947E6 /* Build configuration list for PBXNativeTarget "GHSimpleCharts" */;
+			buildPhases = (
+				D719855A25DE133B00E947E6 /* Sources */,
+				D719855B25DE133B00E947E6 /* Frameworks */,
+				D719855C25DE133B00E947E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHSimpleCharts;
+			productName = GHSimpleCharts;
+			productReference = D719855E25DE133B00E947E6 /* GHSimpleCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D719855625DE133B00E947E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LGH;
+				TargetAttributes = {
+					D719855D25DE133B00E947E6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = D719855925DE133B00E947E6 /* Build configuration list for PBXProject "GHSimpleCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D719855525DE133B00E947E6;
+			productRefGroup = D719855F25DE133B00E947E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D719855D25DE133B00E947E6 /* GHSimpleCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D719855C25DE133B00E947E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75AEDA225F20129005E12A7 /* man.png in Resources */,
+				D75AEDA425F20134005E12A7 /* man2.png in Resources */,
+				D719857125DE135900E947E6 /* LaunchScreen.storyboard in Resources */,
+				D719856E25DE135900E947E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D719855A25DE133B00E947E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D719856925DE133B00E947E6 /* ViewController.m in Sources */,
+				D719859225DE14A000E947E6 /* GHProgressChartView.m in Sources */,
+				D72813E525F9F99300B6A70C /* ProgressViewController.m in Sources */,
+				D716F34A25EF62240050B628 /* BarViewController.m in Sources */,
+				D7FAE23A25E775810029AE16 /* GHBarChartView.m in Sources */,
+				D719859025DE14A000E947E6 /* NSString+GHSimpleCharts.m in Sources */,
+				D716F35025EF62430050B628 /* RadarViewController.m in Sources */,
+				D719859325DE14A000E947E6 /* GHChartsInfoView.m in Sources */,
+				D716F34D25EF62340050B628 /* PieViewController.m in Sources */,
+				D78DBD1625F5F8F100F8F385 /* UIViewController+CreateControl.m in Sources */,
+				D764BD0725E0E91E00B719DE /* GHLineChartView.m in Sources */,
+				D719856325DE133B00E947E6 /* AppDelegate.m in Sources */,
+				D719859125DE14A000E947E6 /* GHPieChartView.m in Sources */,
+				D719859525DE14A000E947E6 /* GHCTool.m in Sources */,
+				D7BAEA7A25E8D9390098503B /* GHRadarChartView.m in Sources */,
+				D719859825DE15B800E947E6 /* UIColor+GHSimpleCharts.m in Sources */,
+				D716F34725EF61160050B628 /* LineViewController.m in Sources */,
+				D719857425DE135900E947E6 /* main.m in Sources */,
+				D7E93F8D25F0C60A0099F0A2 /* GHConfigs.m in Sources */,
+				D764BD0425E0E8F400B719DE /* GHAxisChartView.m in Sources */,
+				D719859425DE14A000E947E6 /* GHBaseChartsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D719856F25DE135900E947E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D719857025DE135900E947E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D719857525DE135900E947E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D719857625DE135900E947E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D719857825DE135900E947E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QA5SD39AF;
+				INFOPLIST_FILE = GHSimpleCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LGH.GHSimpleCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D719857925DE135900E947E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QA5SD39AF;
+				INFOPLIST_FILE = GHSimpleCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LGH.GHSimpleCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D719855925DE133B00E947E6 /* Build configuration list for PBXProject "GHSimpleCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D719857525DE135900E947E6 /* Debug */,
+				D719857625DE135900E947E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D719857725DE135900E947E6 /* Build configuration list for PBXNativeTarget "GHSimpleCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D719857825DE135900E947E6 /* Debug */,
+				D719857925DE135900E947E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D719855625DE133B00E947E6 /* Project object */;
+}
