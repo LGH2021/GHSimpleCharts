@@ -11,6 +11,9 @@
 #import "GHConfigs.h"
 #import "UIViewController+CreateControl.h"
 @interface BarViewController ()
+{
+    CGFloat _barWidth;
+}
 @property (strong, nonatomic) GHBarChartView *barView;
 @end
 
@@ -46,9 +49,12 @@
 }
 
 - (void)setBarWidth:(UISwitch *)swh {
-    self.barView.barWidth = swh.on? 30: 10;
-    self.barView.barTintImage = nil;
-    self.barView.barBackgroundImage = nil;
+    _barWidth = swh.on? 30: 10;
+    
+    if (self.barView.barTintImage) {
+        return;
+    }
+    self.barView.barWidth = _barWidth;
     [self.barView reloadData];
 }
 
@@ -70,6 +76,8 @@
     if (swh.on) {
         // 此处建议指定一下barWidth，不然可能会有点小尴尬。。。
         self.barView.barWidth = 80;
+    } else {
+        self.barView.barWidth = _barWidth == 0? 10: _barWidth;
     }
     
     [self.barView reloadData];
