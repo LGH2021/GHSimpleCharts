@@ -230,7 +230,7 @@ static NSUInteger kY_AxisLabelTag = 10;
                 xLabel.center = center;
             }
             if (self.xDegreeOrientation == GHAxisDegreeOrientationUp || self.xDegreeOrientation == GHAxisDegreeOrientationDown) {
-                if (((_lineChartStartAtYAxis && i > 0) || !_lineChartStartAtYAxis) && !(hasXArrow && self.xAxisExcessLength == 0 && i == self.labels.count - 1)) {
+                if ((_lineChartStartAtYAxis && i > 0) || (!_lineChartStartAtYAxis && !(hasXArrow && self.xAxisExcessLength == 0 && i == self.labels.count - 1))) {
                     
                     CGFloat degreeWidth = 5;
                     if (self.xDegreeOrientation == GHAxisDegreeOrientationUp) {
